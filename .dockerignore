@@ -1,0 +1,8 @@
+.git
+.github
+.jj
+_fresh
+node_modules
+vendor
+.env
+.env.*.local
