@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading.tsx";
 
 export function GallerySection() {
   return (
-    <section id="galleri" class="bg-[#efe2d1] py-16">
+    <section id="galleri" class="bg-[#eadcc9] py-20">
       <div class="mx-auto max-w-7xl px-5 lg:px-8">
         <div class="max-w-3xl">
           <SectionHeading eyebrow="Galleri" title="Playground Noir.">
@@ -23,7 +23,7 @@ export function GallerySection() {
               height="1024"
               alt={`Playground Noir puddelportrett ${index + 1}`}
               loading="lazy"
-              class="mb-5 w-full break-inside-avoid rounded-[1.75rem] bg-[#201714] object-cover shadow-lg shadow-black/10"
+              class="mb-5 w-full break-inside-avoid rounded-[1.25rem] bg-[#201714] object-cover shadow-lg shadow-black/10"
             />
           ))}
         </div>

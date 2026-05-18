@@ -11,7 +11,7 @@ import { define } from "../utils.ts";
 
 export default define.page(function Home() {
   return (
-    <main class="min-h-screen bg-[#f7f2e9] text-[#171717]">
+    <main class="min-h-screen bg-[#f3eadc] text-[#211814]">
       <Head>
         <title>Kennel Playground | Hjemmebasert puddeloppdrett</title>
         <meta name="description" content={site.description} />

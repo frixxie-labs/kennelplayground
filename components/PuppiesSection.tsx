@@ -2,8 +2,8 @@ import { SectionHeading } from "./SectionHeading.tsx";
 
 export function PuppiesSection() {
   return (
-    <section id="valper" class="mx-auto max-w-7xl px-5 py-16 lg:px-8">
-      <div class="rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-black/5 md:p-10">
+    <section id="valper" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+      <div class="rounded-[2rem] bg-[#fffaf2] p-6 shadow-sm ring-1 ring-[#211814]/10 md:p-10">
         <div class="grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
           <SectionHeading
             eyebrow="Valper"

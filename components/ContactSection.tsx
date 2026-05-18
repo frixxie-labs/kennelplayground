@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading.tsx";
 
 export function ContactSection() {
   return (
-    <section id="kontakt" class="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+    <section id="kontakt" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
       <div class="grid gap-8 rounded-[2rem] bg-[#211814] p-6 text-white md:grid-cols-[0.95fr_1.05fr] md:p-10">
         <SectionHeading
           eyebrow="Kontakt"

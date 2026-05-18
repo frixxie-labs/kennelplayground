@@ -16,11 +16,11 @@ export function SectionHeading(
   return (
     <div>
       <p
-        class={`text-sm font-semibold uppercase tracking-[0.2em] ${eyebrowClass}`}
+        class={`text-sm font-semibold uppercase tracking-[0.2em] [font-family:var(--font-accent)] ${eyebrowClass}`}
       >
         {eyebrow}
       </p>
-      <h2 class="mt-3 text-4xl font-semibold tracking-[-0.03em] md:text-5xl">
+      <h2 class="mt-3 text-4xl font-semibold tracking-[-0.03em] [font-family:var(--font-display)] md:text-5xl">
         {title}
       </h2>
       {children && (

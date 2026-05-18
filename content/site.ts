@@ -2,12 +2,13 @@ export const site = {
   name: "Kennel Playground",
   logo: "https://kennelplayground.no/wp-content/uploads/2025/07/image.png",
   heroImage:
-    "https://kennelplayground.no/wp-content/uploads/2025/10/image-6.png",
+    "https://kennelplayground.no/wp-content/uploads/2025/10/image-778x1024.png",
   description:
     "Kennel Playground er et lite, hjemmebasert oppdrett av storpuddel og mellompuddel i Heimdal. Hundene lever tett på familien med trygghet, ro og tilstedeværelse.",
 };
 
 export const navigation = [
+  { label: "Om", href: "#om" },
   { label: "Storpuddel", href: "#storpuddel" },
   { label: "Mellompuddel", href: "#mellompuddel" },
   { label: "Valper", href: "#valper" },
