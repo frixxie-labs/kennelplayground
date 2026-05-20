@@ -1,8 +1,7 @@
 export const site = {
   name: "Kennel Playground",
-  logo: "https://kennelplayground.no/wp-content/uploads/2025/07/image.png",
-  heroImage:
-    "https://kennelplayground.no/wp-content/uploads/2025/10/image-778x1024.png",
+  logo: "/images/logo.avif",
+  heroImage: "/images/image-778x1024.avif",
   description:
     "Kennel Playground er et lite, hjemmebasert oppdrett av storpuddel og mellompuddel i Heimdal. Hundene lever tett på familien med trygghet, ro og tilstedeværelse.",
 };
@@ -44,13 +43,13 @@ export const breeds = [
 ];
 
 export const galleryImages = [
-  "https://kennelplayground.no/wp-content/uploads/2025/06/IMG_4849-768x1024.jpeg",
-  "https://kennelplayground.no/wp-content/uploads/2025/10/image-778x1024.png",
-  "https://kennelplayground.no/wp-content/uploads/2025/10/image-1-783x1024.png",
-  "https://kennelplayground.no/wp-content/uploads/2025/10/image-2-657x1024.png",
-  "https://kennelplayground.no/wp-content/uploads/2025/10/image-3-683x1024.png",
-  "https://kennelplayground.no/wp-content/uploads/2025/10/image-4-683x1024.png",
-  "https://kennelplayground.no/wp-content/uploads/2025/10/image-5-683x1024.png",
+  "/images/IMG_4849-768x1024.avif",
+  "/images/image-778x1024.avif",
+  "/images/image-1-783x1024.avif",
+  "/images/image-2-657x1024.avif",
+  "/images/image-3-683x1024.avif",
+  "/images/image-4-683x1024.avif",
+  "/images/image-5-683x1024.avif",
 ];
 
 export const contact = {
