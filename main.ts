@@ -28,6 +28,17 @@ app.use(async (ctx) => {
   }
 });
 
+app.get("/status/ping", () => new Response("pong", {
+  headers: { "content-type": "text/plain" },
+}));
+
+app.get("/status/health", () =>
+  Response.json({
+    status: "healthy",
+    timestamp: new Date().toISOString(),
+  })
+);
+
 app.use(staticFiles());
 
 // Include file-system based routes here
