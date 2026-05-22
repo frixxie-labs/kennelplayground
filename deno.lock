@@ -46,6 +46,7 @@
     "npm:preact@^10.29.2": "10.29.2",
     "npm:rollup@^4.55.1": "4.60.3",
     "npm:tailwindcss@^4.3.0": "4.3.0",
+    "npm:vite@^7.1.4": "7.3.3",
     "npm:vite@^7.3.3": "7.3.3"
   },
   "jsr": {
@@ -109,7 +110,8 @@
         "npm:@prefresh/vite",
         "npm:@remix-run/node-fetch-server",
         "npm:@types/babel__core",
-        "npm:rollup"
+        "npm:rollup",
+        "npm:vite@^7.1.4"
       ]
     },
     "@std/bytes@1.0.6": {
